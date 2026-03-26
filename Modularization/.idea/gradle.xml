@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/database" />
+            <option value="$PROJECT_DIR$/core/mediastore" />
+            <option value="$PROJECT_DIR$/core/navigation" />
+            <option value="$PROJECT_DIR$/core/theme" />
+            <option value="$PROJECT_DIR$/data" />
+            <option value="$PROJECT_DIR$/data/entrance" />
+            <option value="$PROJECT_DIR$/data/favourites" />
+            <option value="$PROJECT_DIR$/data/images" />
+            <option value="$PROJECT_DIR$/data/language" />
+            <option value="$PROJECT_DIR$/data/media-detail" />
+            <option value="$PROJECT_DIR$/data/onboarding" />
+            <option value="$PROJECT_DIR$/data/settings" />
+            <option value="$PROJECT_DIR$/data/videos" />
+            <option value="$PROJECT_DIR$/domain" />
+            <option value="$PROJECT_DIR$/domain/entrance" />
+            <option value="$PROJECT_DIR$/domain/favourites" />
+            <option value="$PROJECT_DIR$/domain/images" />
+            <option value="$PROJECT_DIR$/domain/language" />
+            <option value="$PROJECT_DIR$/domain/media-detail" />
+            <option value="$PROJECT_DIR$/domain/onboarding" />
+            <option value="$PROJECT_DIR$/domain/settings" />
+            <option value="$PROJECT_DIR$/domain/videos" />
+            <option value="$PROJECT_DIR$/feature" />
+            <option value="$PROJECT_DIR$/feature/dashboard" />
+            <option value="$PROJECT_DIR$/feature/entrance" />
+            <option value="$PROJECT_DIR$/feature/favourites" />
+            <option value="$PROJECT_DIR$/feature/images" />
+            <option value="$PROJECT_DIR$/feature/language" />
+            <option value="$PROJECT_DIR$/feature/media-detail" />
+            <option value="$PROJECT_DIR$/feature/onboarding" />
+            <option value="$PROJECT_DIR$/feature/settings" />
+            <option value="$PROJECT_DIR$/feature/videos" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

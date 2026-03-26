@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/entranceFragment">
+
+    <fragment
+        android:id="@+id/entranceFragment"
+        android:name="com.sohaib.modularization.feature.entrance.ui.EntranceFragment"
+        android:label="Entrance"
+        tools:layout="@layout/fragment_entrance">
+
+        <deepLink app:uri="android-app://com.sohaib.modularization/entrance" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.sohaib.modularization.feature.language.ui.LanguageFragment"
+        android:label="Select Language"
+        tools:layout="@layout/fragment_language">
+
+        <deepLink app:uri="android-app://com.sohaib.modularization/language" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.sohaib.modularization.feature.onboarding.ui.OnboardingFragment"
+        android:label="Onboarding"
+        tools:layout="@layout/fragment_onboarding">
+
+        <deepLink app:uri="android-app://com.sohaib.modularization/onboarding" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.sohaib.modularization.feature.dashboard.ui.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard">
+
+        <deepLink app:uri="android-app://com.sohaib.modularization/dashboard" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/mediaDetailFragment"
+        android:name="com.sohaib.modularization.feature.media.detail.ui.MediaDetailFragment"
+        android:label="Media Detail"
+        tools:layout="@layout/fragment_media_detail">
+
+        <deepLink app:uri="android-app://com.sohaib.modularization/media_detail/{mediaId}/{mediaType}" />
+
+    </fragment>
+
+    <include app:graph="@navigation/nav_graph_dashboard" />
+
+</navigation>
